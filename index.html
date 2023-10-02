@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid Tips</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h3>Auto-filling grid tracks</h3>
+    <div class="wrapper-1">
+      <div>One</div>
+      <div>Two</div>
+      <div>Three</div>
+    </div>
+    <h3 style="margin-top: 40px">A flexible number of tracks</h3>
+    <div class="wrapper-2">
+      <div>One</div>
+      <div>Two</div>
+      <div>Three</div>
+    </div>
+
+    <h3 style="margin-top: 40px">Positioning items by line number</h3>
+    <div class="position-by-number-line">
+      <div class="box1">
+        One <br /><br />One of the most important thing in life is you have to
+        step out in your confort zone.
+      </div>
+      <div class="box2">Two</div>
+      <div class="box3">Three</div>
+      <div class="box4">Four</div>
+    </div>
+
+    <!-- Layout using named grid lines -->
+    <h3 style="margin-top: 40px">Layout using named grid lines</h3>
+    <div class="wrapper">
+      <div class="box_1">One</div>
+      <div class="box_2">Two</div>
+      <div class="box_3">Three</div>
+      <div class="box_4">Four</div>
+    </div>
+
+    <!-- Implicit Grid lines from named areas -->
+    <h3 style="margin-top: 40px">Implicit Grid lines from named areas</h3>
+    <div class="named-area">
+      <div class="header">Header</div>
+      <div class="sidebar">Sidebar</div>
+      <div class="content">Content</div>
+      <div class="footer">Footer</div>
+      <div class="overlay">Overlay</div>
+    </div>
+
+    <!--Sizing rows using minmax()  -->
+
+    <h3 style="margin-top: 40px">Sizing rows using minmax()</h3>
+    <div class="sizing-rows">
+      <div>One</div>
+      <div>Two</div>
+      <div>Three</div>
+      <div>
+        Four <br />This cell <br />Has extra <br />content. <br />Max is auto
+        <br />so the row expands.
+      </div>
+      <div>Five</div>
+    </div>
+  </body>
+</html>
